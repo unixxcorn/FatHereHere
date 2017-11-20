@@ -1,0 +1,30 @@
+.close-menu-popup{
+	position: absolute;
+    padding: 0;
+    top: 0;
+    right: 0;
+}
+.button-close-popup {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+    padding: 0 10px;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #dd343c;
+    color: #FFF;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+/*#content p,.post-grid.grid-3 .entry-title h2 {
+    min-height: 45px;
+}*/

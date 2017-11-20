@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1545px" height="1508px" viewBox="0 0 1545 1508" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>git-commit-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="git-commit-icon" transform="translate(0.000000, -37.000000)">
+            <path d="M573.5,274.5 L727.5,432.5" id="Line" stroke="#F9BF3B" stroke-width="50" stroke-linecap="square"></path>
+            <path d="M873.5,587.5 L973,686" id="Line-Copy-3" stroke="#F9BF3B" stroke-width="50" stroke-linecap="square"></path>
+            <path d="M789.5,618.5 L789.5,984" id="Line-Copy-4" stroke="#F9BF3B" stroke-width="50" stroke-linecap="square"></path>
+            <rect id="Rectangle-2" stroke="#F9BF3B" stroke-width="50" transform="translate(791.000000, 791.000000) rotate(-45.000000) translate(-791.000000, -791.000000) " x="257" y="257" width="1068" height="1068" rx="89"></rect>
+            <circle id="Oval-3" stroke="#F9BF3B" stroke-width="50" cx="805" cy="517" r="97"></circle>
+            <circle id="Oval-3-Copy" stroke="#F9BF3B" stroke-width="50" cx="1049" cy="761" r="97"></circle>
+            <circle id="Oval-3-Copy-2" stroke="#F9BF3B" stroke-width="50" cx="791" cy="1106" r="97"></circle>
+            <circle id="Oval-4" fill="#F9BF3B" cx="40" cy="618" r="40"></circle>
+            <circle id="Oval-4-Copy" fill="#F9BF3B" cx="134" cy="526" r="40"></circle>
+            <circle id="Oval-4-Copy-2" fill="#F9BF3B" cx="228" cy="435" r="40"></circle>
+        </g>
+    </g>
+</svg>

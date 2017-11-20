@@ -1,0 +1,1934 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------
+	Grid 5 Col
+-----------------------------------------------------------------*/
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------
+	Kanit Font
+-----------------------------------------------------------------*/
+@font-face {
+  font-family: 'Kanit-Medium';
+  src: url('../css/fonts/Kanit-Medium.eot');
+  src: url('../css/fonts/Kanit-Medium.woff2') format('woff2'),
+       url('../css/fonts/Kanit-Medium.woff') format('woff'),
+       url('../css/fonts/Kanit-Medium.ttf') format('truetype'),
+       url('../css/fonts/Kanit-Medium.svg#Kanit-Medium') format('svg'),
+       url('../css/fonts/Kanit-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Kanit-Regular';
+  src: url('../css/fonts/Kanit-Regular.eot');
+  src: url('../css/fonts/Kanit-Regular.woff2') format('woff2'),
+       url('../css/fonts/Kanit-Regular.woff') format('woff'),
+       url('../css/fonts/Kanit-Regular.ttf') format('truetype'),
+       url('../css/fonts/Kanit-Regular.svg#Kanit-Regular') format('svg'),
+       url('../css/fonts/Kanit-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Kanit-Light';
+  src: url('../css/fonts/Kanit-Light.eot');
+  src: url('../css/fonts/Kanit-Light.woff2') format('woff2'),
+       url('../css/fonts/Kanit-Light.woff') format('woff'),
+       url('../css/fonts/Kanit-Light.ttf') format('truetype'),
+       url('../css/fonts/Kanit-Light.svg#Kanit-Light') format('svg'),
+       url('../css/fonts/Kanit-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Kanit-ExtraLight';
+  src: url('../css/fonts/Kanit-ExtraLight.eot');
+  src: url('../css/fonts/Kanit-ExtraLight.woff2') format('woff2'),
+       url('../css/fonts/Kanit-ExtraLight.woff') format('woff'),
+       url('../css/fonts/Kanit-ExtraLight.ttf') format('truetype'),
+       url('../css/fonts/Kanit-ExtraLight.svg#Kanit-ExtraLight') format('svg'),
+       url('../css/fonts/Kanit-ExtraLight.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------
+	Navigation
+-----------------------------------------------------------------*/
+.oishi-top-bar { 
+	position: relative; 
+}
+.oishi-top-bar ul { 
+	list-style: none; 
+	margin: 0; 
+	text-align: right; 
+  color: #fb2f2f;
+}
+.oishi-top-bar ul li { 
+	display: inline; 
+}
+.oishi-top-bar ul li a { 
+	padding: 0 10px; 
+	color: #fff; 
+	font-size: 12px; 
+	font-family: 'Kanit-Regular', sans-serif; 
+	font-weight: normal;
+	transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+}
+.oishi-top-bar ul li a:hover { 
+	color: #cccccc; 
+}
+.oishi-top-bar ul li a i { 
+	font-size: 13px; 
+}
+
+#oishi-loogo { 
+	position: fixed; 
+	z-index: 99; 
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------
+	Footer
+-----------------------------------------------------------------*/
+.oishi-footer { 
+	padding: 80px 0; 
+}
+.oishi-footer h1 {
+	font-family: 'Kanit-Regular', sans-serif;
+	color: #fff; 
+	font-size: 14px; 
+	font-weight: normal; 
+	margin: 0;
+}
+.oishi-footer img {
+	padding: 15px 0;
+}
+.oishi-footer p{
+	font-family: 'Kanit-ExtraLight', sans-serif;
+	color: #fff; 
+	font-size: 14px; 
+	font-weight: normal; 
+	margin: 0;
+}
+.oishi-footer ul>li>a {
+	font-family: 'Kanit-ExtraLight', sans-serif;
+	color: #fff; 
+	font-size: 14px; 
+	font-weight: normal; 
+	margin: 0;
+	transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+}
+.oishi-footer ul>li>a:hover {
+	color: #cccccc; 
+}
+.oishi-footer ul {
+	list-style: none;
+}
+.oishi-footer .footer-social  {
+	padding: 12px 0;
+}
+.oishi-footer .footer-social a {
+	font-family: 'Kanit-ExtraLight', sans-serif;
+	color: #fff; 
+	font-weight: normal; 
+	margin: 0;
+}
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------
+	Index
+-----------------------------------------------------------------*/
+.content-bg {
+	position: absolute;
+    z-index: 10;
+    margin-top: -50px;
+}
+
+.home-brand-left {
+	position: relative;
+}
+.home-brand-image .image-brand img {
+	padding-bottom: 20px;
+}
+.home-brand-image .enter-site {
+	text-align: center;
+}
+.home-brand-image .enter-site a {
+	font-family: 'Kanit-Medium', sans-serif;
+	font-size: 18px;
+	color: red; 
+	font-weight: normal; 
+	margin: 0;
+	transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+}
+.home-brand-image .enter-site a:hover {
+	color: #333; 
+}
+.home-brand-image .enter-site a img {
+	margin-right: 5px;
+}
+
+.home-brand-content {}
+.home-brand-content h1 {
+	font-family: 'Kanit-Medium', sans-serif;
+	font-size: 36px;
+	color: #333; 
+	font-weight: normal; 
+	margin: 0;
+}
+.home-brand-content h2 {
+	font-family: 'Kanit-ExtraLight', sans-serif;
+	font-size: 28px;
+	color: #666; 
+	font-weight: normal; 
+	margin: 0;
+}
+.home-brand-content p {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 15px;
+	color: #666; 
+	font-weight: normal; 
+	margin: 0;
+}
+
+
+
+
+.home-brand-right {
+	position: relative;
+}
+.home-brand-right .home-brand-content {
+	text-align: right;
+}
+
+
+.oishi-header-section {
+	padding-bottom: 30px;
+    padding-top: 50px;
+    position: relative;
+}
+.oishi-header-section h1 {
+	font-family: 'Kanit-Regular', sans-serif;
+	font-size: 36px;
+	color: red; 
+	font-weight: normal; 
+	margin: 0;
+}
+.oishi-header-section h1 span {
+	font-family: 'Kanit-Regular', sans-serif;
+	font-size: 36px;
+	color: #333; 
+	font-weight: normal; 
+	margin: 0;
+}
+.oishi-header-section h1 i {
+	font-family: 'Kanit-ExtraLight', sans-serif;
+	font-size: 36px;
+	color: #333; 
+	font-weight: normal; 
+	margin: 0;
+	font-style: normal;
+}
+.oishi-header-section h2 {
+	font-family: 'Kanit-Regular', sans-serif;
+	font-size: 20px;
+	color: #666666; 
+	font-weight: normal; 
+	margin: 0;
+}
+.oishi-header-section p {
+    font-family: 'Kanit-Light', sans-serif;
+	font-size: 16px;
+	line-height: 1.5 !important;
+	color: #666; 
+	font-weight: normal; 
+	margin: 30px 0;
+}
+.oishi-header-section p b {
+	color: #000; 
+	font-weight: 600; 
+}
+
+.oishi-header-section-align {
+	text-align: center;
+}
+
+
+.blog-wrap {
+	background-color: #fff;
+	padding: 15px 20px;
+}
+.blog-wrap .blog-title p {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 16px;
+	line-height: 1.5 !important;
+	color: #666; 
+	font-weight: normal; 
+	margin: 0;
+}
+.blog-wrap .blog-date p {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 14px;
+	color: red; 
+	font-weight: normal; 
+	margin: 0;
+}
+.blog-wrap .blog-btn {
+	text-align: right;
+    padding-top: 25px;
+}
+.blog-wrap .blog-btn a {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 18px;
+	color: #fff; 
+	font-weight: normal; 
+	margin: 0;
+}
+
+
+.owl-carousel .owl-nav .owl-next {
+    background-image: url(../img/owl-next.png);
+    background-size: contain;
+}
+.owl-carousel .owl-nav .owl-prev {
+    background-image: url(../img/owl-prev.png);
+    background-size: contain;
+}
+.owl-carousel .owl-nav .owl-next i {
+    opacity: 0;
+}
+.owl-carousel .owl-nav .owl-prev i {
+    opacity: 0;
+}
+
+
+
+.oishi-last-section {}
+.oishi-last-section .blog {
+	background-color: #fff;
+}
+.oishi-last-section .blog .content {
+	padding: 15px 20px;
+}
+.oishi-last-section .blog .content .title h1 {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 18px;
+	line-height: 1.5 !important;
+	color: #464646; 
+	font-weight: normal; 
+	margin: 0;
+}
+.oishi-last-section .blog .content .date p {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 14px;
+	color: red; 
+	font-weight: normal; 
+	margin: 0;
+}
+.oishi-last-section .blog .content .btn-text {
+	text-align: right;
+}
+.oishi-last-section .blog .content .btn-text a {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 18px;
+	color: red; 
+	font-weight: normal; 
+	margin: 0;
+	transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+}
+.oishi-last-section .blog .content .btn-text a:hover {
+	color: #af1215; 
+}
+.oishi-last-section .blog .content .btn-text a img {
+	margin-right: 5px;
+}
+
+
+.bottom-tab {
+	position: absolute;
+    z-index: 2;
+    bottom: 0;
+}
+
+
+
+.oishi-header-section {
+	
+}
+.oishi-header-section .btn-plus {
+	background-color: #ff0000;
+	border-radius: 100px;
+	width: 30px;
+	height: 30px;
+	border: none;
+	position: absolute;
+    right: 0;
+    top: 63px;
+	transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+}
+.oishi-header-section .btn-plus:hover {
+	background-color: #333333;
+}
+.oishi-header-section .btn-plus i {
+	color: #ffffff;
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------
+	About Milestone
+-----------------------------------------------------------------*/
+.cd-horizontal-timeline ol, .events-content ol, .ListeOL {
+	list-style: none !important;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+.cd-horizontal-timeline {
+  opacity: 0;
+  margin: 2em auto;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+.cd-horizontal-timeline::before {
+  /* never visible - this is used in jQuery to check the current MQ */
+  content: 'mobile';
+  display: none;
+}
+.cd-horizontal-timeline.loaded {
+  /* show the timeline after events position has been set (using JavaScript) */
+  opacity: 1;
+}
+.cd-horizontal-timeline .timeline {
+  position: relative;
+  height: 100px;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.cd-horizontal-timeline .events-wrapper {
+  position: relative;
+  height: 100%;
+  margin: 0 40px;
+  overflow: hidden;
+}
+.cd-horizontal-timeline .events-wrapper::after, .cd-horizontal-timeline .events-wrapper::before {
+  /* these are used to create a shadow effect at the sides of the timeline */
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  height: 100%;
+  width: 20px;
+}
+.cd-horizontal-timeline .events-wrapper::before {
+  left: 0;
+  background-image: -webkit-linear-gradient( left , #f8f8f8, rgba(248, 248, 248, 0));
+  background-image: linear-gradient(to right, #f8f8f8, rgba(248, 248, 248, 0));
+}
+.cd-horizontal-timeline .events-wrapper::after {
+  right: 0;
+  background-image: -webkit-linear-gradient( right , #f8f8f8, rgba(248, 248, 248, 0));
+  background-image: linear-gradient(to left, #f8f8f8, rgba(248, 248, 248, 0));
+}
+.cd-horizontal-timeline .events {
+  /* this is the grey line/timeline */
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 49px;
+  height: 2px;
+  /* width will be set using JavaScript */
+  background: #dfdfdf;
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  transition: transform 0.4s;
+}
+.cd-horizontal-timeline .filling-line {
+  /* this is used to create the green line filling the timeline */
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #7b9d6f;
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -ms-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+}
+.cd-horizontal-timeline .events a {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  text-align: center;
+  font-size: 1.3rem;
+  padding-bottom: 15px;
+  color: #383838;
+  /* fix bug on Safari - text flickering while timeline translates */
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.cd-horizontal-timeline .events a::after {
+  /* this is used to create the event spot */
+  content: '';
+  position: absolute;
+  left: 50%;
+  right: auto;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: -5px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  border: 2px solid #dfdfdf;
+  background-color: #f8f8f8;
+  -webkit-transition: background-color 0.3s, border-color 0.3s;
+  -moz-transition: background-color 0.3s, border-color 0.3s;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.no-touch .cd-horizontal-timeline .events a:hover::after {
+  background-color: #7b9d6f;
+  border-color: #7b9d6f;
+}
+.cd-horizontal-timeline .events a.selected {
+  pointer-events: none;
+}
+.cd-horizontal-timeline .events a.selected::after {
+  background-color: #7b9d6f;
+  border-color: #7b9d6f;
+}
+.cd-horizontal-timeline .events a.older-event::after {
+  border-color: #7b9d6f;
+}
+@media only screen and (min-width: 1100px) {
+  .cd-horizontal-timeline {
+    margin: 6em auto;
+  }
+  .cd-horizontal-timeline::before {
+    /* never visible - this is used in jQuery to check the current MQ */
+    content: 'desktop';
+  }
+}
+
+.cd-timeline-navigation a {
+  /* these are the left/right arrows to navigate the timeline */
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  border: 2px solid #dfdfdf;
+  /* replace text with an icon */
+  overflow: hidden;
+  color: transparent;
+  text-indent: 100%;
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s;
+  -moz-transition: border-color 0.3s;
+  transition: border-color 0.3s;
+}
+.cd-timeline-navigation a::after {
+  /* arrow icon */
+  content: '';
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(../img/cd-arrow.svg) no-repeat 0 0;
+}
+.cd-timeline-navigation a.prev {
+  left: 0;
+  -webkit-transform: translateY(-50%) rotate(180deg);
+  -moz-transform: translateY(-50%) rotate(180deg);
+  -ms-transform: translateY(-50%) rotate(180deg);
+  -o-transform: translateY(-50%) rotate(180deg);
+  transform: translateY(-50%) rotate(180deg);
+}
+.cd-timeline-navigation a.next {
+  right: 0;
+}
+.no-touch .cd-timeline-navigation a:hover {
+  border-color: #7b9d6f;
+}
+.cd-timeline-navigation a.inactive {
+  cursor: not-allowed;
+}
+.cd-timeline-navigation a.inactive::after {
+  background-position: 0 -16px;
+}
+.no-touch .cd-timeline-navigation a.inactive:hover {
+  border-color: #dfdfdf;
+}
+
+.cd-horizontal-timeline .events-content {
+  position: relative;
+  width: 100%;
+  margin: 2em 0;
+  overflow: hidden;
+  -webkit-transition: height 0.4s;
+  -moz-transition: height 0.4s;
+  transition: height 0.4s;
+}
+.cd-horizontal-timeline .events-content li {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+  padding: 0 5%;
+  opacity: 0;
+  -webkit-animation-duration: 0.4s;
+  -moz-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+.cd-horizontal-timeline .events-content li.selected {
+  /* visible event content */
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+.cd-horizontal-timeline .events-content li.enter-right, .cd-horizontal-timeline .events-content li.leave-right {
+  -webkit-animation-name: cd-enter-right;
+  -moz-animation-name: cd-enter-right;
+  animation-name: cd-enter-right;
+}
+.cd-horizontal-timeline .events-content li.enter-left, .cd-horizontal-timeline .events-content li.leave-left {
+  -webkit-animation-name: cd-enter-left;
+  -moz-animation-name: cd-enter-left;
+  animation-name: cd-enter-left;
+}
+.cd-horizontal-timeline .events-content li.leave-right, .cd-horizontal-timeline .events-content li.leave-left {
+  -webkit-animation-direction: reverse;
+  -moz-animation-direction: reverse;
+  animation-direction: reverse;
+}
+.cd-horizontal-timeline .events-content li > * {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.cd-horizontal-timeline .events-content h2 {
+  font-weight: bold;
+  font-size: 2.6rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.cd-horizontal-timeline .events-content em {
+  display: block;
+  font-style: italic;
+  margin: 10px auto;
+}
+.cd-horizontal-timeline .events-content em::before {
+  content: '- ';
+}
+.cd-horizontal-timeline .events-content p {
+  font-size: 1.4rem;
+  color: #959595;
+}
+.cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
+  line-height: 1.6;
+}
+@media only screen and (min-width: 768px) {
+  .cd-horizontal-timeline .events-content h2 {
+    font-size: 7rem;
+  }
+  .cd-horizontal-timeline .events-content em {
+    font-size: 2rem;
+  }
+  .cd-horizontal-timeline .events-content p {
+    font-size: 1.8rem;
+  }
+}
+
+@-webkit-keyframes cd-enter-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+  }
+}
+@-moz-keyframes cd-enter-right {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0%);
+  }
+}
+@keyframes cd-enter-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+@-webkit-keyframes cd-enter-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+  }
+}
+@-moz-keyframes cd-enter-left {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0%);
+  }
+}
+@keyframes cd-enter-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------
+	About Oishi
+-----------------------------------------------------------------*/
+.side-menu-about {
+	padding-top: 50px;
+}
+.side-menu-about ul li {
+	list-style: none;
+}
+.side-menu-about ul li a {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 16px;
+	color: #464646;
+	font-weight: normal; 
+	margin: 0;
+}
+
+.side-menu-about ul li ul li a{
+	font-size: 14px;
+	color: #999;
+}
+.side-menu-about ul li ul li a:hover {
+	color: #464646;
+}
+
+
+.about-tab-nav {}
+.about-tab-nav .tab-1 {
+	background-image: url(../img/about-tab-bg-1.png);
+}
+.about-tab-nav .tab-2 {
+	background-image: url(../img/about-tab-bg-2.png);
+}
+
+
+.business-tab {
+	padding-top: 30px;
+	text-align: center;
+}
+
+.food-business {}
+.food-business .intro {
+	padding-bottom: 30px;
+}
+.food-business .intro h1 {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 20px;
+	color: #464646;
+	font-weight: normal; 
+}
+
+.food-business .food-business-blog-main {}
+.food-business .food-business-blog-main .food-business-blog {}
+.food-business .food-business-blog-main .food-business-blog .icon {}
+.food-business .food-business-blog-main .food-business-blog .detail {}
+.food-business .food-business-blog-main .food-business-blog .detail h1 {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 20px;
+	color: #464646;
+	font-weight: normal;
+}
+.food-business .food-business-blog-main .food-business-blog .detail p {
+	font-family: 'Kanit-ExtraLight', sans-serif;
+	font-size: 16px;
+	color: #464646;
+	font-weight: normal;
+}
+.food-business .food-business-blog-main .food-business-blog .detail p span {
+	font-family: 'Kanit-Regular', sans-serif;
+}
+
+
+.food-business-last {}
+.food-business-last h1 {
+	font-family: 'Kanit-Regular', sans-serif;
+	font-size: 20px;
+	color: #464646;
+	font-weight: normal;
+}
+.food-business-last p {
+	font-family: 'Kanit-ExtraLight', sans-serif;
+	font-size: 16px;
+	color: #464646;
+	font-weight: normal;
+}
+
+.date-remark {
+	padding-top: 50px;
+}
+
+.investor {
+	padding-top: 50px;
+}
+.investor .image img {
+	width: 100%;
+}
+.investor .image .button {
+	margin: 0;
+	width: 100%;
+}
+
+
+.tab-nav-about .food-tab a {
+	background-image: url(../img/about-tab-bg-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.tab-nav-about .beverage-tab a {
+	background-image: url(../img/about-tab-bg-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+
+.beverage-business .intro h1 {
+    font-family: 'Kanit-Light', sans-serif;
+    font-size: 20px;
+    color: #464646;
+    font-weight: normal;
+}
+.beverage-business .intro p {
+    font-family: 'Kanit-ExtraLight', sans-serif;
+    font-size: 16px;
+    color: #464646;
+    font-weight: normal;
+}
+
+.beverage-business thead {
+	background-color: #8eba27;
+	color: #ffffff;
+}
+.beverage-business thead .sub-head {
+	background-color: #72951f;
+}
+.beverage-business thead .sub-head td {
+	border: none;
+	padding: 8px 20px;
+	font-family: 'Kanit-ExtraLight', sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.beverage-business tbody {
+	background-color: #e0e9cc;
+	color: #464646;
+}
+.beverage-business tbody .icon-circle {
+	color: #8eba27;
+}
+.green-cell {
+	background-color: #cbdda3;
+}
+.green-border-top {
+	border-top: solid 2px #72951f;
+}
+
+
+
+/* ------- about 03 vision ------ */
+.vision-blog {}
+.vision-blog .image {
+	padding-bottom: 50px;
+}
+.vision-blog .vision-detail {}
+.vision-blog .vision-detail h1 {
+	font-family: 'Kanit-Regular', sans-serif;
+	font-size: 20px;
+	color: #464646;
+	font-weight: normal;
+}
+.vision-blog .vision-detail h1 span {
+	color: red;
+}
+.vision-blog .vision-detail p {
+	font-family: 'Kanit-ExtraLight', sans-serif;
+	font-size: 16px;
+	color: #464646;
+	font-weight: normal;
+}
+
+
+/* ------- about 04 message ------ */
+.message-blog {
+	background-color: #ffffff;
+}
+.message-blog .message-detail {
+	padding: 50px;
+}
+.message-blog .message-detail p {
+	font-family: 'Kanit-ExtraLight', sans-serif;
+	font-size: 16px;
+	color: #464646;
+	font-weight: normal;
+}
+.message-blog .message-detail ol {
+	font-family: 'Kanit-ExtraLight', sans-serif;
+	font-size: 16px;
+	color: #464646;
+	font-weight: normal;
+	margin-left: 15px;
+}
+.message-blog .signature {
+	text-align: center;
+	padding-bottom: 50px;
+}
+.message-blog .signature h1 {
+	font-family: 'Kanit-Regular', sans-serif;
+	font-size: 16px;
+	color: #464646;
+	font-weight: normal;
+}
+
+
+/* ------- about 04 message ------ */
+.organization-blog {}
+.organization-blog .image {
+	position: relative;
+}
+.organization-blog .organization-detail {
+	text-align: center;
+	padding-top: 30px;
+}
+.organization-blog .organization-detail p {
+	font-family: 'Kanit-Regular', sans-serif;
+	font-size: 16px;
+	color: #464646;
+	font-weight: normal;
+}
+
+
+/* ------- about 07 board of directors ------ */
+.board-blog-detail {
+	padding-bottom: 50px;
+	height: 580px;
+}
+
+.board-line {
+	border-top: solid 2px red;
+	padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.board-blog-detail .board-content {}
+.board-blog-detail .board-content h1 {
+	font-family: 'Kanit-Regular', sans-serif;
+	font-size: 16px;
+	color: #464646;
+	font-weight: normal;
+}
+.board-blog-detail .board-content p {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 14px;
+	color: #999999;
+	font-weight: normal;
+}
+
+.board-blog-detail .board-btn {
+	position: absolute;
+	bottom: 40px;
+  left: 68px;
+}
+
+.board-small-blog {}
+.board-small-blog .board-small-detail {
+	border-top: solid 2px #dcdcdc;
+	border-bottom: solid 2px #dcdcdc;
+	padding: 15px 0;
+}
+.board-small-blog .board-small-detail p {
+	font-family: 'Kanit-ExtraLight', sans-serif;
+	font-size: 16px;
+	color: #464646;
+	font-weight: normal;
+	margin: 0;
+}
+
+.popup-text-board {
+	padding-top: 30px;
+}
+.popup-text-board h1 {
+	font-family: 'Kanit-Regular', sans-serif;
+	font-size: 18px;
+	color: #464646;
+	font-weight: normal;
+	margin: 0;
+}
+.popup-text-board h2 {
+	font-family: 'Kanit-Regular', sans-serif;
+	font-size: 16px;
+	color: red;
+	font-weight: normal;
+	margin: 0;
+	padding-top: 30px;
+}
+.popup-text-board p {
+	font-family: 'Kanit-ExtraLight', sans-serif;
+	font-size: 16px;
+	color: #464646;
+	font-weight: normal;
+	margin: 0;
+}
+.popup-text-board ul {
+	font-family: 'Kanit-ExtraLight', sans-serif;
+	font-size: 16px;
+	color: #464646;
+	font-weight: normal;
+	margin: 0;
+	margin-left: 20px;
+}
+
+.board-table {
+	padding-top: 50px;
+}
+.board-table .table-header {
+	background-color: red;
+	text-align: center;
+	padding: 15px 0;
+}
+.board-table .table-header h1 {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: normal;
+	margin: 0;
+}
+
+.board-table table {}
+.board-table table thead {
+	text-align: center;
+}
+.board-table table thead tr {
+	background-color: red;
+}
+.board-table table thead tr td {
+	padding: 15px 0;
+}
+.board-table table thead tr td h1 {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+
+.board-table table tbody {
+	text-align: center;
+}
+.board-table table tbody tr {
+	background-color: #eeeeee;
+	border-bottom: solid 1px #cecece;
+}
+.board-table table tbody tr .gray {
+	background-color: #e0e0e0;
+}
+.board-table table tbody tr td {
+	padding: 15px 10px;
+}
+.board-table table tbody tr td h2 {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 13px;
+	color: #464646;
+	font-weight: normal;
+}
+.board-table table tbody tr td p {
+	font-family: 'Kanit-ExtraLight', sans-serif;
+	font-size: 13px;
+	line-height: 15px !important;
+	color: #464646;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+.board-table .table-mobile-blog {}
+.board-table .table-mobile-blog .header {
+	background-color: red;
+	padding: 10px 5px;
+}
+.board-table .table-mobile-blog .header h1 {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: normal;
+	margin: 0;
+}
+
+.board-table .table-mobile-blog .row-info {
+	padding-top: 10px;
+}
+.board-table .table-mobile-blog .row-info .info-sec {
+	border-bottom: solid 1px #cccccc;
+}
+.board-table .table-mobile-blog .row-info h1 {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 14px;
+	color: #464646;
+	font-weight: normal;
+	margin: 0;
+}
+.board-table .table-mobile-blog .row-info p {
+	font-family: 'Kanit-ExtraLight', sans-serif;
+	font-size: 14px;
+	color: #999999;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+/* ------- about 08 executive ------ */
+.executive-blog-detail {
+	padding-bottom: 50px;
+	height: 550px;
+}
+
+.board-line {
+	border-top: solid 1px red;
+	padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.executive-blog-detail .board-content {}
+.executive-blog-detail .board-content h1 {
+	font-family: 'Kanit-Regular', sans-serif;
+	font-size: 16px;
+	color: #464646;
+	font-weight: normal;
+}
+.executive-blog-detail .board-content p {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 14px;
+	color: #999999;
+	font-weight: normal;
+}
+
+.executive-blog-detail .board-btn {
+	position: absolute;
+	bottom: 40px;
+  left: 68px;
+}
+
+
+
+/* ------- about 09 Committees ------ */
+.committees-table {}
+.committees-table .header {}
+.committees-table .header h1 {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 24px;
+	color: #464646;
+	font-weight: normal;
+}
+
+.committees-table table thead {
+	background: red;
+}
+.committees-table table thead tr {
+	color: #ffffff;
+}
+.committees-table table thead tr th {
+	border: none;
+}
+
+.committees-line {
+	border-top: solid 2px #cccccc;
+	padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.committees-table table tbody tr td {
+	border-bottom: 1px solid #dddddd !important;
+}
+
+
+
+/* ------- about 10 company secretary ------ */
+.company-blog-detail {
+	padding-bottom: 50px;
+}
+.company-blog-detail .board-content {}
+.company-blog-detail .board-content h1 {
+	font-family: 'Kanit-Regular', sans-serif;
+	font-size: 16px;
+	color: #464646;
+	font-weight: normal;
+}
+.company-blog-detail .board-content p {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 14px;
+	color: #999999;
+	font-weight: normal;
+}
+
+
+
+/* ------- about 12 CG ------ */
+.cg-blog {}
+.cg-blog .detail {}
+.cg-blog .detail h1 {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 20px;
+	color: #464646;
+	font-weight: normal;
+	margin: 0;
+}
+.cg-blog .detail p {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 16px;
+	color: #999999;
+	font-weight: normal;
+}
+
+.cg-border-bottom {
+	border-top: dashed 1px #cccccc;
+	padding-bottom: 50px;
+	margin-top: 50px;
+}
+
+.cg-table thead {
+	background-color: red;
+	color: #ffffff;
+}
+.cg-table > thead > tr > th {
+    border-bottom: none;
+}
+.cg-table > tbody > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-bottom: 1px solid #dddddd;
+}
+
+.risk-factor {}
+.risk-factor .header {}
+.risk-factor .header h1 {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 24px;
+	color: #464646;
+	font-weight: normal;
+}
+.risk-factor .detail h2 {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 18px;
+	color: #464646;
+	font-weight: normal;
+}
+.risk-factor .detail p {
+	font-family: 'Kanit-ExtraLight', sans-serif;
+	font-size: 14px;
+	color: #464646;
+	font-weight: normal;
+}
+
+.risk-line {
+    border-top: solid 2px #cccccc;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+    
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------
+	Oishi Brand
+-----------------------------------------------------------------*/
+.brand-header {
+	padding-bottom: 20px;
+}
+.brand-header h1 {
+	font-family: 'Kanit-Regular', sans-serif;
+	font-size: 30px;
+	color: #333; 
+	font-weight: normal; 
+	margin: 0;
+}
+.brand-header h1 span {
+	font-family: 'Kanit-ExtraLight', sans-serif;
+	font-size: 30px;
+	color: #666; 
+	font-weight: normal; 
+	margin: 0;
+}
+
+.brand-list-section {
+	padding-bottom: 25px;
+    margin-bottom: 50px;
+    border-bottom: solid 1px #ddd;
+}
+.brand-list-section-last {
+	padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: transparent;
+}
+
+.brand-blog .title {
+	text-align: center;
+	margin-top: 10px;
+}
+.brand-blog .title p {
+	font-family: 'Kanit-Light', sans-serif;
+	font-size: 18px;
+	color: #464646; 
+	font-weight: normal; 
+	margin: 0;
+}
+
+
+.brand-list-section-mobile {
+	padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: solid 1px #ddd;
+}
+.brand-list-section-mobile-last {
+    border-bottom: transparent;
+}
+
+
+.brand-thumb {
+	text-align: center;
+}
+.brand-thumb .brand-blog {
+	width: 19%;
+	display: inline-block;
+	position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+
+.popup-text {
+    margin-top: 50px;
+}
+.popup-text h1 {
+	font-family: 'Kanit-Regular', sans-serif;
+    font-size: 24px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+.popup-text p {
+	font-family: 'Kanit-Light', sans-serif;
+    font-size: 15px;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.promotion-block .entry-title h2 {
+	font-family: 'Kanit-Light', sans-serif;
+    font-size: 18px;
+    color: #464646;
+    margin-bottom: 10px;
+}
+.promotion-block .entry-date p {
+	font-family: 'Kanit-Light', sans-serif;
+    font-size: 14px;
+    color: #f01c24;
+    margin-bottom: 10px;
+}
+.promotion-block .oishi-button a {
+	font-family: 'Kanit-Light', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+
+
+.delivery-tab-menu .delivery-icon {
+	float: left;
+	margin-right: 10px;
+	/*padding-top: 15px;*/
+}
+.delivery-tab-menu .delivery-name {
+	float: left;
+	margin-top: 10px;
+}
+.delivery-tab-menu .delivery-name h1 {
+	font-size: 16px;
+	color: #333333;
+	margin: 0;
+}
+.delivery-tab-menu .delivery-name h1 span {
+	font-family: 'Kanit-ExtraLight', sans-serif;
+	color: #666666;
+	margin: 0;
+	margin-top: 5px;
+	text-align: left;
+}
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------
+Promotion
+--------------------------------------------------------------------------------------------*/
+.entry-date {
+    font-family: 'Kanit-Light', sans-serif;
+    font-size: 14px;
+    color: #f01c24;
+    margin-top: 30px !important;
+}
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------
+Contact Us
+--------------------------------------------------------------------------------------------*/
+.contact-details i {
+	margin-right: 15px;
+}
+
+.contact-details {
+	/*margin-bottom: 50px;*/
+}
+.contact-details .address-detail {
+	position: relative;
+    padding: 0 0 0 50px;
+    margin-bottom: 15px;
+}
+.contact-details .address-detail .icon {
+	display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.contact-details .address-detail h1 {
+	font-family: 'Kanit-Medium', sans-serif;
+	color: #464646;
+	font-size: 21px;
+}
+.contact-details .address-detail h2 {
+	font-family: 'Kanit-Light', sans-serif;
+	color: #464646;
+	font-size: 16px;
+}
+
+
+.oishi-header-contact h1 {
+	font-family: 'Kanit-Regular', sans-serif;
+	font-size: 36px;
+	color: #333; 
+	font-weight: normal; 
+}
+.oishi-header-contact h1 span {
+	font-family: 'Kanit-ExtraLight', sans-serif;
+	font-size: 36px;
+	color: #666; 
+	font-weight: normal; 
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------
+Beverage
+--------------------------------------------------------------------------------------------*/
+.title-section-beverage {
+	border-top: 1px dotted #DDD;
+	border-bottom: 1px dotted #DDD;
+	padding: 10px 0;
+	margin-bottom: 50px;
+}
+.title-section-beverage h1 {
+	font-family: 'Kanit-Regular', sans-serif;
+	font-size: 24px;
+	color: #fe0e3e; 
+	font-weight: normal; 
+	margin: 0;
+}
+
+.beverage-blog .entry-title h1 {
+	font-family: 'Kanit-Regular', sans-serif;
+	font-size: 16px;
+	color: #464646; 
+	font-weight: normal; 
+	margin: 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------
+Export Center
+--------------------------------------------------------------------------------------------*/
+.export-tab-menu .export-icon {
+    float: left;
+    margin-right: 15px;
+}
+.export-tab-menu .export-name {
+    float: left;
+    text-align: left;
+}
+
+.export-tab-menu .export-name h1 {
+	font-family: 'Kanit-Regular', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #333333;
+	margin: 0;
+}
+.export-tab-menu .export-name h2 {
+	font-family: 'Kanit-Regular', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	margin: 0;
+}
+
+
+.export-block .entry-title h2 {
+	font-family: 'Kanit-Regular', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #464646;
+	margin: 0;
+	text-align: center;
+}
+
+
+
+
+.export-border-top {
+	border-top: solid 2px #ccc !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------- Menu popup comimg soon -------------------------------------*/
+
+
+
+[data-balloon] {
+ 	position: relative;
+	cursor: pointer; 
+}
+
+[data-balloon]:after {
+    filter: alpha(opactiy=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all 0.18s ease-out 0.18s;
+    -moz-transition: all 0.18s ease-out 0.18s;
+    -ms-transition: all 0.18s ease-out 0.18s;
+    -o-transition: all 0.18s ease-out 0.18s;
+    transition: all 0.18s ease-out 0.18s;
+    font-family: sans-serif !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    text-shadow: none !important;
+    font-size: 12px !important;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    color: #666;
+    content: attr(data-balloon);
+    padding: .5em 1em;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 10; 
+}
+
+[data-balloon]:before {
+    background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(255, 255, 255, 1)%22%20transform%3D%22rotate(0)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+    background-size: 100% auto;
+    width: 18px;
+    height: 6px;
+    filter: alpha(opactiy=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all 0.18s ease-out 0.18s;
+    -moz-transition: all 0.18s ease-out 0.18s;
+    -ms-transition: all 0.18s ease-out 0.18s;
+    -o-transition: all 0.18s ease-out 0.18s;
+    transition: all 0.18s ease-out 0.18s;
+    content: '';
+    position: absolute;
+    z-index: 10; 
+}
+
+[data-balloon]:hover:before, [data-balloon]:hover:after, [data-balloon][data-balloon-visible]:before, [data-balloon][data-balloon-visible]:after {
+    filter: alpha(opactiy=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+    pointer-events: auto; 
+}
+
+[data-balloon].font-awesome:after {
+    font-family: FontAwesome; 
+}
+
+[data-balloon][data-balloon-break]:after {
+    white-space: pre; 
+}
+
+[data-balloon][data-balloon-blunt]:before, [data-balloon][data-balloon-blunt]:after {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none; 
+}
+
+[data-balloon][data-balloon-pos="up"]:after {
+    bottom: 60%;
+    left: 50%;
+    margin-bottom: 11px;
+    -webkit-transform: translate(-50%, 10px);
+    -moz-transform: translate(-50%, 10px);
+    -ms-transform: translate(-50%, 10px);
+    transform: translate(-50%, 10px);
+    -webkit-transform-origin: top;
+    -moz-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top; 
+}
+
+[data-balloon][data-balloon-pos="up"]:before {
+    bottom: 60%;
+    left: 50%;
+    margin-bottom: 5px;
+    -webkit-transform: translate(-50%, 10px);
+    -moz-transform: translate(-50%, 10px);
+    -ms-transform: translate(-50%, 10px);
+    transform: translate(-50%, 10px);
+    -webkit-transform-origin: top;
+    -moz-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top; 
+}
+
+[data-balloon][data-balloon-pos="up"]:hover:after, [data-balloon][data-balloon-pos="up"][data-balloon-visible]:after {
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0); 
+}
+
+[data-balloon][data-balloon-pos="up"]:hover:before, [data-balloon][data-balloon-pos="up"][data-balloon-visible]:before {
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
