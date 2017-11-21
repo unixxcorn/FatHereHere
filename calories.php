@@ -77,15 +77,15 @@
                                             </div>
                                             <div class="form-group">
                                                 <label class="control-label">อายุ</label>
-                                                <input type="number" name="age" placeholder="40" class="form-control input-lg"> <!---->
+                                                <input required type="number" name="age" placeholder="40" class="form-control input-lg"> <!---->
                                             </div>
                                             <div class="form-group">
                                                 <label class="control-label">ส่วนสูง</label>
-                                                <input type="number" name="height" placeholder="180" class="form-control input-lg"> <!---->
+                                                <input required type="number" name="height" placeholder="180" class="form-control input-lg"> <!---->
                                             </div>
                                             <div class="form-group">
                                                 <label class="control-label">น้ำหนัก</label>
-                                                <input type="number" name="weight" placeholder="80" class="form-control input-lg"> <!---->
+                                                <input required type="number" name="weight" placeholder="80" class="form-control input-lg"> <!---->
                                             </div>
                                             <div class="form-group">
                                                 <label class="control-label">การใช้พลังงาน</label>

@@ -90,7 +90,7 @@
                             <h4 class="js-countup">
                                 <?php
                                     include('backend.php');
-                                    food::counter();
+                                    food::counter_show();
                                 ?>
                             </h4>
                         </div>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 20, 2017 at 07:05 PM
+-- Generation Time: Nov 21, 2017 at 03:44 PM
 -- Server version: 10.1.26-MariaDB
 -- PHP Version: 7.1.8
 
@@ -29,15 +29,16 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `counter` (
-  `counter` int(11) NOT NULL
+  `counter` int(11) NOT NULL,
+  `BMI` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `counter`
 --
 
-INSERT INTO `counter` (`counter`) VALUES
-(5);
+INSERT INTO `counter` (`counter`, `BMI`) VALUES
+(1, 36);
 
 -- --------------------------------------------------------
 

@@ -56,16 +56,56 @@
         </header>
         <!-- Nav Bar End
         ============================================= -->
+        <?php
+            include('backend.php');
+        ?>
         <section class="login-page">
             <div class="row row-fluid">
                 <div class="col-xl-6 col-xl-offset-3 col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h3>Result</h3>
-                            <p>แสดงผลคำแนะนำ ว่ากินเกินความต้องการไหม</p>
+                            <table>
+                                <tr>
+                                    <td>ค่า BMR </td>
+                                    <td>
+                                        <?php
+                                            food::counter_add($_POST['weight'], $_POST['height']);
+                                            echo food::BMR($_POST['sex'], $_POST['age'], $_POST['weight'], $_POST['height']);
+                                        ?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>ค่า TDEE</td>
+                                    <td>
+                                        <?php
+                                            echo food::TDEE(food::BMR($_POST['sex'], $_POST['age'], $_POST['weight'], $_POST['height']), $_POST['level']);
+                                        ?>
+                                        แคลโลรี่ ต่อวัน
+                                    </td>
+                                </tr>
+                                <?php if(!($_POST['breakfast']=='' && $_POST['lunch']=='' && $_POST['dinner']=='')){ ?>
+                                    <tr>
+                                        <td>อาหารที่รับประทาน</td>
+                                        <td>
+                                            <?php
+                                                echo food::inputfood($_POST['breakfast'], $_POST['lunch'], $_POST['dinner']);
+                                            ?>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>พลังงานที่ได้รับ</td>
+                                        <td>
+                                            <?php
+                                                echo food::calorie($_POST['breakfast'], $_POST['lunch'], $_POST['dinner']);
+                                            ?>
+                                            แคลโลรี่ 
+                                        </td>
+                                    </tr>
+                                <?php } ?>
+                            </table>
                             <h1 align="center">
                                 <?php
-                                    include('backend.php');
                                     food::result();
                                 ?>
                             </h1>
