@@ -53,10 +53,11 @@ class food {
         $evening = $conn->query("SELECT * FROM `realfood` WHERE `FOOD` LIKE '%".$dinner."%'")->fetch_assoc();
         return $morning['FOOD'].'  '.$morning['CALORIES'].'<br>'.$noon['FOOD'].'  '.$noon['CALORIES'].'<br>'.$evening['FOOD'].'  '.$evening['CALORIES'];
     }
-    public function recommend($calories){
+    public function recommend($cal){
         global $config;
         $conn = mysqli_connect($config['database_host'],$config['database_user'],$config['database_pswd'],$config['database_DB']);
-        $food = $conn->query("SELECT * FROM `realfood` WHERE `CALORIES` <= $calories ORDER BY `CALORIES` DESC")->fetch_assoc();
+        $sql = "SELECT * FROM `realfood` WHERE `CALORIES` <= ".$cal." ORDER BY `CALORIES` DESC";
+        $food = $conn->query($sql)->fetch_assoc();
         return $food;
     }
     public function result(){
@@ -67,25 +68,25 @@ class food {
                 echo "คุณได้รับสารอาหารเกินจำเป็นจำนวน<br>";
                 echo abs($Need - $Usage).' แคลโลรี่';
             }else{
-                echo "คุณได้รับสารอาหารน้อยเกินไป คุณได้รับ<br>";
+                echo "คุณได้รับสารอาหารน้อยเกินไป คุณต้องการอีก<br>";
                 echo abs($Need - $Usage).' แคลโลรี่';
-                echo "<br>คุณควรรับประทานอาหารเพิ่ม <br>เราขอแนะนำ ".food::recommend(abs($Usage))['FOOD'];
+                echo "<br>คุณควรรับประทานอาหารเพิ่ม <br>เราขอแนะนำ ".food::recommend(abs($Need - $Usage))['FOOD'];
             }
         }else{
-            echo 'คุณควรรับประทานอาหารไม่เกิน '.$Need.' แคลโลรี่ต่อวัน';
+            echo 'คุณควรรับประทานอาหารไม่เกิน '.food::TDEE(food::BMR($_POST['sex'], $_POST['age'], $_POST['weight'], $_POST['height']), $_POST['level']).' แคลโลรี่ต่อวัน';
         }
     }
     public function counter_add($weight, $height){
         global $config;
         $conn = mysqli_connect($config['database_host'],$config['database_user'],$config['database_pswd'],$config['database_DB']);
         $counter = $conn -> query("SELECT * FROM `counter`") -> fetch_assoc();
-        $conn->query("UPDATE `counter` SET `counter` = '".($counter['counter']+1)."', `BMI` = '".food::BMI($weight, $height)."' WHERE `counter`.`counter` = ".$counter['counter'].";");
+        $conn->query("UPDATE `counter` SET `counter` = '".($counter['counter']+1)."', `BMI` = '".(intval(food::BMI($weight, $height))+$counter['BMI'])."' WHERE `counter`.`counter` = ".$counter['counter'].";");
     }
     public function counter_show(){
         global $config;
         $conn = mysqli_connect($config['database_host'],$config['database_user'],$config['database_pswd'],$config['database_DB']);
         $counter = $conn -> query("SELECT * FROM `counter`") -> fetch_assoc();
-        echo $counter['BMI'] / $counter['counter'];
+        return $counter['BMI'] / $counter['counter'];
     }
 }
 

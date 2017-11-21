@@ -150,31 +150,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                         <h5>Copyright 2017 © FatHereHere. All rights reserved</h5>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <ul class="list-unstyled list-inline">
-                            <li>
-                                <a href="https://www.facebook.com/phureek" target="_blank" rel="nofollow">
-                                    <span class="icon-holder">
-                                        <img src="https://cf1.cdn.runcloud.io/img/facebook.svg?rccbt=1" alt="Facebook Social Icon">
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/GdYora" target="_blank" rel="nofollow">
-                                    <span class="icon-holder">
-                                        <img src="https://cf1.cdn.runcloud.io/img/twitter.svg?rccbt=1" alt="Twitter Social Icon">
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.youtube.com/user/keimakhun" target="_blank" rel="nofollow">
-                                    <span class="icon-holder">
-                                        <img src="https://cf1.cdn.runcloud.io/img/youtube.svg?rccbt=1" alt="Youtube Social Icon">
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                    
                 </div>
             </div>
         </footer>
