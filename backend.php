@@ -72,7 +72,7 @@ class food {
                 echo "<br>คุณควรรับประทานอาหารเพิ่ม <br>เราขอแนะนำ ".food::recommend(abs($Usage))['FOOD'];
             }
         }else{
-            echo 'คุณควรรับประทานอาหารไม่เกิน '.food::BMR($_POST['sex'], $_POST['age'], $_POST['weight'], $_POST['height']).' แคลโลรี่ต่อวัน';
+            echo 'คุณควรรับประทานอาหารไม่เกิน '.$Need.' แคลโลรี่ต่อวัน';
         }
     }
     public function counter_add($weight, $height){
